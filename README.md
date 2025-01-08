@@ -9,8 +9,8 @@ This project demonstrates how to configure VLANs and inter-VLAN routing using Ci
 ### **Step 1: Set Up the Network Topology**
 1. Open Cisco Packet Tracer.
 2. Add the following devices:
-   - **1 Router** (e.g., Cisco 1941).
-   - **1 Switch** (e.g., Cisco 2960).
+   - **1 Router** (Cisco 1941).
+   - **1 Switch** (Cisco 2960).
    - **4 PCs**:
      - 2 for HR Department (VLAN 10).
      - 2 for IT Department (VLAN 20).
@@ -25,4 +25,50 @@ This project demonstrates how to configure VLANs and inter-VLAN routing using Ci
 2. Enter configuration mode:
    ```bash
    enable
-   configure terminal
+   configure terminal 
+Create VLANS
+   ```bash
+   vlan 10
+   name HR
+   vlan 20
+   name IT
+   exit
+   ```
+
+Assign VLANs to Ports:
+   For HR PCs 
+   ```bash
+   interface fastEthernet0/1
+   switchport mode access
+   switchport access vlan 10
+   exit
+   interface fastEthernet0/2
+   switchport mode access
+   switchport access vlan 10
+   exit
+   ```
+   For IT PCs
+   ```bash
+   interface fastEthernet0/3
+   switchport mode access
+   switchport access vlan 20
+   exit
+   interface fastEthernet0/4
+   switchport mode access
+   switchport access vlan 20
+   exit
+   ```
+   Configure the Trunk Port
+   ```bash
+   interface fastEthernet0/24
+   switchport mode trunk
+   exit
+   ```
+   Save the Clean Configuration
+   ```bash
+   copy running-config startup-config
+   ```
+
+
+
+
