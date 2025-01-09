@@ -17,7 +17,7 @@ This project demonstrates how to configure VLANs and inter-VLAN routing using Ci
 3. Connect devices using appropriate cables:
    - PCs to the switch using straight-through cables.
    - Switch to the router using a straight-through cable.
-   - 
+     
 ![Network1](https://github.com/user-attachments/assets/9936834b-c43f-4af8-9249-99e7f33d2dc4)
 
 ---
