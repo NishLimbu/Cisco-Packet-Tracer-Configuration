@@ -18,6 +18,7 @@ This project demonstrates how to configure VLANs and inter-VLAN routing using Ci
    - PCs to the switch using straight-through cables.
    - Switch to the router using a straight-through cable.
 
+![Network Topology](../images/Network1.png)
 ---
 
 ### **Step 2: Configure VLANs on the Switch**
