@@ -1,4 +1,4 @@
-# Cisco VLAN Project
+s# Cisco VLAN Project
 
 This project demonstrates how to configure VLANs and inter-VLAN routing using Cisco Packet Tracer. It simulates HR and IT departments with separate VLANs, static IPs, and inter-VLAN connectivity via a router.
 
@@ -32,9 +32,10 @@ This project demonstrates how to configure VLANs and inter-VLAN routing using Ci
 ---
 
 ### **Step 4: Assign interfaces and ports**
+Access ports
 ![assign vlans](https://github.com/user-attachments/assets/53dfb980-db95-4d54-948e-2c45197b7a78)
 
-
+Trunk ports
 ![TRUNK PORTS](https://github.com/user-attachments/assets/55b946e1-ca91-4465-a45b-f2fdff5b6876)
 
 ### **Step 5: Configure router with encapsulation**
