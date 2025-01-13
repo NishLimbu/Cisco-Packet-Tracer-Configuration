@@ -46,12 +46,16 @@ Trunk ports
 
 ---
 
-### **Step 5: Create and assign VLAN3 and configure the router**
+### **Step 5: Create and assign VLAN3**
+
 ![Router config3](https://github.com/user-attachments/assets/f20915a8-76f8-48df-8232-bcbe14063331)
 
 ---
 
 ### **Step 6: Ping**
+
+Ping between PCS to test connectivity
+
 ![PING](https://github.com/user-attachments/assets/5e3be3bc-315a-4b04-ad05-143db353be37)
 
 
